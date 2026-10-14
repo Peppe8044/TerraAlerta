@@ -23,3 +23,7 @@ No se ha elegido aún licencia para el código original. No asumir que las licen
 ## Extensión preventiva: aluviones
 
 El roadmap de lluvia intensa, cartografía de quebradas, eventos históricos, preparación ciudadana, futuras notificaciones y reportes se documenta en [docs/ALUVIONES_Y_PREVENCION.md](docs/ALUVIONES_Y_PREVENCION.md). Los niveles P0/P1/P2 separan funciones implementables de hipótesis que exigen evaluación adicional.
+
+## Auditoría de confiabilidad
+
+Antes de implementar o publicar nuevas capacidades, consultar [Auditoría MVP y matriz de implementabilidad](docs/AUDITORIA_MVP_2026-10-14.md). Distingue componentes implementables ahora, condicionados a disponibilidad/licencia y funciones de investigación no aptas para alertas operativas.
