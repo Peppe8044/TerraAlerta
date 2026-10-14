@@ -20,3 +20,7 @@ Antes de implementar, leer `docs/ALUVIONES_Y_PREVENCION.md` e incorporar su matr
 ## Gate de confiabilidad obligatorio (14-10-2026)
 
 Leer `docs/AUDITORIA_MVP_2026-10-14.md` antes de codificar. Crear `docs/FUENTES_ESTADO.md` y ejecutar los gates G0–G4 para la versión informativa. Priorizar mapa, trazabilidad, pronóstico de fuente autorizada y orientación SENAPRED. Integraciones IMERG, DEM, DGA y SERNAGEOMIN solo tras revisar sus permisos, cobertura y precisión; mantener conectores deshabilitados si falta aprobación. No introducir ML de aluviones, «sectores seguros», alertas de evacuación ni porcentajes de riesgo predial en el MVP.
+
+## Roadmap ampliado de valor ciudadano
+
+Leer `docs/ROADMAP_VALOR_CIUDADANO.md` antes de planificar sprints. Consolidar con `docs/ALUVIONES_Y_PREVENCION.md`, evitando duplicar checklist y capas. Implementar primero checklist de preparación local y pantallas de observaciones DGA e históricos **solo si las fuentes cumplen G0/G1**; usar estados sin datos cuando corresponda. Registrar decisiones y resultados de pruebas. Mantener Sentinel-1, asistente IA y datos privados de predios como fases posteriores sujetas a validación.
