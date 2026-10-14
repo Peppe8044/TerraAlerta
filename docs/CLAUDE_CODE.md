@@ -16,3 +16,7 @@ Criterios de aceptación: `docker compose up` inicia componentes, `/health` resp
 ## Requisito adicional — prevención ante aluviones
 
 Antes de implementar, leer `docs/ALUVIONES_Y_PREVENCION.md` e incorporar su matriz P0/P1/P2 al plan. En P0 añadir historial de eventos documentados, contexto de quebradas/pendientes, información sobre lluvia reciente con fechas y una ficha de preparación respaldada por SENAPRED. No construir notificaciones ni reportes ciudadanos hasta pasar sus puertas de validación. Aceptar «datos insuficientes» y no mostrar riesgo numérico, sectores «seguros» ni rutas de evacuación inferidas.
+
+## Gate de confiabilidad obligatorio (14-10-2026)
+
+Leer `docs/AUDITORIA_MVP_2026-10-14.md` antes de codificar. Crear `docs/FUENTES_ESTADO.md` y ejecutar los gates G0–G4 para la versión informativa. Priorizar mapa, trazabilidad, pronóstico de fuente autorizada y orientación SENAPRED. Integraciones IMERG, DEM, DGA y SERNAGEOMIN solo tras revisar sus permisos, cobertura y precisión; mantener conectores deshabilitados si falta aprobación. No introducir ML de aluviones, «sectores seguros», alertas de evacuación ni porcentajes de riesgo predial en el MVP.
