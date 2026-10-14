@@ -69,10 +69,12 @@ export default function HomePage() {
           </a>
           .
         </p>
+        {/* La procedencia de los datos se muestra ANTES de cualquier evaluación
+            (docs/AUDITORIA_MVP_2026-10-14.md entregable 2 / criterio de aceptación). */}
+        <SourcesPanel />
         <LocationPanel loading={loading} error={error} summary={summary} />
         <PreparednessChecklist />
         <EventsViewer />
-        <SourcesPanel />
       </aside>
     </main>
   );

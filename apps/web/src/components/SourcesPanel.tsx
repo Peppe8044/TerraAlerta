@@ -87,6 +87,9 @@ export function SourcesPanel() {
                     </span>
                   </div>
                   <div style={{ color: "#4b5563" }}>{source.owner}</div>
+                  <div style={{ color: "#6b7280" }}>
+                    {source.retrieval_mode} · última verificación: {source.last_verified}
+                  </div>
                   <div style={{ color: "#6b7280" }}>{source.notes}</div>
                   <a href={source.url} target="_blank" rel="noreferrer">
                     {source.url}

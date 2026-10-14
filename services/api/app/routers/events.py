@@ -27,8 +27,19 @@ def list_events() -> EventsResponse:
             "(SERNAGEOMIN, SENAPRED u otra fuente oficial citable)."
         )
     else:
+        # No asumir que todo el listado está "verificado": EventRecord admite
+        # verification_status="pending_review", así que se cuenta cada estado
+        # por separado en vez de describir el conjunto completo como verificado
+        # (hallazgo de revisión en PR #2).
+        verified_count = sum(1 for e in EVENTS if e.verification_status == "verified")
+        pending_count = len(EVENTS) - verified_count
+        parts = []
+        if verified_count:
+            parts.append(f"{verified_count} evento(s) verificado(s)")
+        if pending_count:
+            parts.append(f"{pending_count} evento(s) pendiente(s) de revisión")
         message = (
-            f"{len(EVENTS)} evento(s) histórico(s) verificado(s) con fuente oficial citable. "
+            f"{', '.join(parts)} con fuente citable para esta zona. "
             "Esta lista es un punto de partida, no un inventario completo ni auditado de todos "
             "los eventos ocurridos en la zona."
         )

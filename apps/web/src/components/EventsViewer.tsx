@@ -10,6 +10,25 @@ const CERTAINTY_LABELS: Record<LocationCertainty, string> = {
   unverified_candidate: "Candidato sin verificar",
 };
 
+const HAZARD_LABELS: Record<string, string> = {
+  aluvion: "Aluvión",
+  remocion_en_masa: "Remoción en masa",
+  inundacion: "Inundación",
+};
+
+const VERIFICATION_LABELS: Record<string, string> = {
+  verified: "Verificado",
+  pending_review: "Pendiente de revisión",
+};
+
+function formatApproxLocation(location: Record<string, unknown>): string {
+  const place = typeof location.place === "string" ? location.place : null;
+  const radiusKm = typeof location.radius_km === "number" ? location.radius_km : null;
+  if (place && radiusKm != null) return `${place} (±${radiusKm} km)`;
+  if (place) return place;
+  return "Ubicación aproximada sin descripción";
+}
+
 export function EventsViewer() {
   const [data, setData] = useState<EventsResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -63,8 +82,21 @@ export function EventsViewer() {
                       style={{ marginBottom: 10, borderBottom: "1px solid #e5e7eb", paddingBottom: 8 }}
                     >
                       <div style={{ display: "flex", justifyContent: "space-between", gap: 8 }}>
-                        <strong>{event.date}</strong>
-                        <span>{CERTAINTY_LABELS[event.location_certainty]}</span>
+                        <strong>
+                          {event.date} · {HAZARD_LABELS[event.hazard_type] ?? event.hazard_type}
+                        </strong>
+                        <span
+                          style={{
+                            color: event.verification_status === "verified" ? "#1b5e20" : "#8a6d00",
+                            fontWeight: 600,
+                          }}
+                        >
+                          {VERIFICATION_LABELS[event.verification_status]}
+                        </span>
+                      </div>
+                      <div style={{ color: "#6b7280" }}>
+                        {formatApproxLocation(event.approx_location)} ·{" "}
+                        {CERTAINTY_LABELS[event.location_certainty]}
                       </div>
                       <div>{event.notes}</div>
                       <div style={{ color: "#6b7280" }}>Fuente: {event.source}</div>

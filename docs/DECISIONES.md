@@ -35,6 +35,15 @@ Tras el merge del MVP inicial (PR #1), se cerraron dos brechas detectadas al rev
 
 Backend: 27 tests (antes 26). Frontend: 5 tests (sin cambio; los dos componentes nuevos son de solo lectura y se probaron manualmente contra la API real, ver más abajo). Lint y build verificados tras los cambios.
 
+### Correcciones tras revisión automatizada (PR #2, Codex)
+
+4 hallazgos más, todos corregidos antes de mergear:
+
+1. **Orden de paneles**: `SourcesPanel` ("¿De dónde viene este dato?") se movió antes de `LocationPanel` en `page.tsx` — el criterio de aceptación de la auditoría exige que la procedencia se muestre antes de cualquier evaluación, y antes quedaba después.
+2. **`EventsViewer` descartaba metadatos estructurados**: solo mostraba notas y fuente en texto libre; un evento `pending_review` era indistinguible de uno `verified`. Ahora se muestra también `hazard_type`, `approx_location` (con su radio de incertidumbre) y `verification_status` con color distintivo.
+3. **Mensaje de `/v1/events` asumía que todo estaba verificado**: `EventRecord` admite `verification_status="pending_review"`, así que un listado mixto se describía falsamente como "N eventos verificados". Ahora se cuenta cada estado por separado. Test añadido con un listado mixto sintético (28 tests en total).
+4. **`SourcesPanel` omitía `retrieval_mode` y `last_verified`**: para fuentes como DMC, la razón real de por qué no está habilitada (API sin verificar, derechos de reutilización) vivía en `retrieval_mode`, que la UI no mostraba. Ahora se muestra junto a la fecha de última verificación.
+
 ## Correcciones tras revisión automatizada (PR #1, Codex)
 
 El bot de revisión de código del repositorio (`chatgpt-codex-connector`) señaló 6 hallazgos reales sobre el primer commit del MVP. Todos se corrigieron antes de mergear:
