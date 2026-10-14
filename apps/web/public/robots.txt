@@ -1,0 +1,3 @@
+# TerraAlerta Chile — prototipo experimental, no es una fuente de alertas oficiales.
+User-agent: *
+Allow: /

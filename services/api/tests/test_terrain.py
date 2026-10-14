@@ -35,3 +35,10 @@ def test_terrain_profile_handles_provider_failure_without_inventing_values(clien
     by_name = {ind["name"]: ind for ind in body}
     assert by_name["elevation"]["value"] is None
     assert by_name["elevation"]["quality_flag"] == "unavailable"
+
+
+def test_terrain_profile_rejects_point_outside_pilot_coverage(client):
+    """Hallazgo de revisión PR #1: este endpoint no aplicaba el guard de cobertura."""
+    response = client.get("/v1/terrain/profile", params={"lat": -53.1638, "lon": -70.9171})
+    assert response.status_code == 422
+    assert "zona piloto" in response.json()["detail"]

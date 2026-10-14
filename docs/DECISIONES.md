@@ -21,6 +21,19 @@ Este documento es el entregable 7 de `docs/CLAUDE_CODE.md`. Registra lo implemen
 - **ML de aluviones, puntajes de riesgo, rutas de evacuación, notificaciones push**: fuera de alcance por decisión explícita de los documentos de producto; no se tocó este sprint.
 - **Contenido SENAPRED**: el checklist de `/v1/preparedness` es un borrador editorial propio pendiente de revisión/cita literal contra el texto oficial vigente (gate G4). No usar en producción sin esa revisión.
 
+## Correcciones tras revisión automatizada (PR #1, Codex)
+
+El bot de revisión de código del repositorio (`chatgpt-codex-connector`) señaló 6 hallazgos reales sobre el primer commit del MVP. Todos se corrigieron antes de mergear:
+
+1. **Ventana de pronóstico mal alineada**: `forecast_days` alinea a medianoche, no a la hora actual — una consulta de "24 h" hecha a media tarde sumaba sobre todo horas ya transcurridas del día en curso. Se cambió a `forecast_hours` (alineado a la hora en curso). Verificado contra la API real: una consulta a las 10:35 local ahora cubre 10:00 de hoy → 09:00 de mañana (24 h exactas desde ahora).
+2. **Ventana de "lluvia reciente" mal alineada**: mismo problema con `past_days`. Se cambió a `past_hours` + `forecast_hours=0`. Verificado: una consulta de 6 h a las 10:35 ahora cubre 04:00–09:00 (las 6 horas inmediatamente anteriores), no medianoche–06:00.
+3. **Series incompletas/ausentes tratadas como 0 mm `real`**: se añadió `_validate_hourly_series()` en `open_meteo.py`, que lanza `ProviderError` (→ `quality_flag="unavailable"`) si el arreglo de precipitación viene vacío, más corto que el horizonte pedido, o con todos los valores `null`. Antes, cualquiera de esos casos se reportaba silenciosamente como `0 mm` con `quality_flag="real"`.
+4. **Guard de cobertura geográfica faltante en 3 endpoints**: `/v1/precipitation/forecast`, `/v1/rain/observed` y `/v1/terrain/profile` no aplicaban `check_coverage()` (solo `/v1/locations/summary` lo hacía), permitiendo consultar cualquier coordenada válida globalmente bajo una app que se presenta como piloto de San José de Maipo. Ahora los tres devuelven 422 fuera de la zona piloto, igual que `/v1/locations/summary`.
+5. **`apps/web/Dockerfile` roto**: copiaba `/app/public` pero el proyecto no tenía directorio `public/`, por lo que `docker compose up --build` fallaría en el paso `COPY`. Se agregó `apps/web/public/robots.txt`.
+6. **Condición de carrera en el frontend**: si el usuario tocaba el punto A y luego el B antes de que A respondiera, una respuesta tardía de A podía sobrescribir el panel que ya mostraba B. Se agregó un contador de "selección más reciente" (`useRef`) en `src/app/page.tsx` que descarta respuestas de selecciones obsoletas.
+
+Se añadieron 6 tests nuevos en el backend (26 en total) cubriendo los puntos 3 y 4; los puntos 1, 2, 5 y 6 se verificaron manualmente contra la API real de Open-Meteo y con `npm run build` (ver salida de verificación en el historial de este sprint). El build de la imagen Docker del frontend no se ejecutó de extremo a extremo en este entorno (sin Docker Desktop activo), pero se confirmó que las tres rutas que copia el Dockerfile (`.next/standalone`, `.next/static`, `public/`) existen tras `npm run build`.
+
 ## Deuda técnica conocida
 
 - El bounding box de cobertura es una aproximación operativa, no la geometría administrativa oficial de la comuna. Reemplazar por la capa oficial (INE/BCN) antes de ampliar cobertura.

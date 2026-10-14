@@ -13,11 +13,15 @@ def test_location_summary_returns_indicators_with_full_traceability(client, monk
     def fake_fetch_json(url, params, timeout):
         if "elevation" in url:
             return {"elevation": [957.0]}
+        # locations.py pide horizon=24 y horizon=72: la serie debe alcanzar
+        # para el horizonte más largo solicitado (ver validación en
+        # app/providers/open_meteo.py tras la revisión del PR #1).
+        hours = 72
         return {
             "elevation": 957.0,
             "hourly": {
-                "time": [f"2026-10-14T{h:02d}:00" for h in range(24)],
-                "precipitation": [0.0] * 24,
+                "time": [f"2026-10-14T{h:02d}:00" for h in range(hours)],
+                "precipitation": [0.0] * hours,
             },
         }
 

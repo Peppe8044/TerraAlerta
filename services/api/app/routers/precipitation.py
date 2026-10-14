@@ -4,6 +4,7 @@ from datetime import UTC, datetime
 
 from fastapi import APIRouter, HTTPException, Query
 
+from app.coverage import check_coverage
 from app.providers import open_meteo
 from app.providers.open_meteo import ProviderError
 from app.schemas import Indicator
@@ -19,6 +20,10 @@ def forecast(
 ) -> Indicator:
     if horizon not in open_meteo.ALLOWED_FORECAST_HORIZONS:
         raise HTTPException(status_code=422, detail="horizon debe ser 24, 48 o 72")
+
+    coverage = check_coverage(lat, lon)
+    if not coverage.in_coverage:
+        raise HTTPException(status_code=422, detail=coverage.reason)
 
     try:
         result = open_meteo.get_forecast(lat, lon, horizon)
@@ -61,6 +66,10 @@ def observed(
 ) -> Indicator:
     if window not in open_meteo.ALLOWED_OBSERVED_WINDOWS:
         raise HTTPException(status_code=422, detail="window debe ser 1, 6, 24 o 72")
+
+    coverage = check_coverage(lat, lon)
+    if not coverage.in_coverage:
+        raise HTTPException(status_code=422, detail=coverage.reason)
 
     try:
         result = open_meteo.get_recent_precipitation(lat, lon, window)

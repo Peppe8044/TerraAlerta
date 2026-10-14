@@ -2,8 +2,9 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, HTTPException, Query
 
+from app.coverage import check_coverage
 from app.providers import open_meteo
 from app.providers.open_meteo import ProviderError
 from app.schemas import Indicator
@@ -23,6 +24,10 @@ def terrain_profile(
     (Copernicus GLO-30/GLO-90) — ver docs/AUDITORIA_MVP_2026-10-14.md — y
     permanece `unavailable` hasta completar ese gate.
     """
+    coverage = check_coverage(lat, lon)
+    if not coverage.in_coverage:
+        raise HTTPException(status_code=422, detail=coverage.reason)
+
     retrieved_at = datetime.now(UTC).isoformat()
 
     try:

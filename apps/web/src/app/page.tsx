@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import { LocationPanel } from "@/components/LocationPanel";
 import { MapView } from "@/components/MapView";
 import { PreparednessChecklist } from "@/components/PreparednessChecklist";
@@ -13,10 +13,19 @@ export default function HomePage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  // Guarda cuál es la selección más reciente: si el usuario toca el punto A
+  // y luego el B antes de que A responda, la respuesta de A (si llega
+  // después) no debe pisar el panel que ya muestra B (ver revisión PR #1).
+  const latestRequestId = useRef(0);
+
   const handleSelectPoint = useCallback(async (lat: number, lon: number) => {
+    const requestId = ++latestRequestId.current;
+
     if (!isInsidePilotCoverage(lat, lon)) {
-      setSummary(null);
-      setError("Punto fuera de la zona piloto (San José de Maipo).");
+      if (requestId === latestRequestId.current) {
+        setSummary(null);
+        setError("Punto fuera de la zona piloto (San José de Maipo).");
+      }
       return;
     }
 
@@ -24,12 +33,14 @@ export default function HomePage() {
     setError(null);
     try {
       const data = await getLocationSummary(lat, lon);
+      if (requestId !== latestRequestId.current) return; // selección obsoleta: ignorar
       setSummary(data);
     } catch (err) {
+      if (requestId !== latestRequestId.current) return; // selección obsoleta: ignorar
       setSummary(null);
       setError(err instanceof Error ? err.message : String(err));
     } finally {
-      setLoading(false);
+      if (requestId === latestRequestId.current) setLoading(false);
     }
   }, []);
 
