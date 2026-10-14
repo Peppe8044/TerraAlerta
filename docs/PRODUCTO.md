@@ -25,3 +25,7 @@ Alertas push de evacuación, clasificación de seguridad de viviendas, daños ec
 ## Aceptación
 
 Interfaz móvil legible, no exige cuenta, capa de mapa funcional, timestamps visibles, trazabilidad por indicador, tratamiento explícito de fallos/latencia, accesibilidad, español chileno, aviso de carácter experimental.
+
+## Extensión de prevención ante aluviones (14-10-2026)
+
+El MVP incorpora consulta de precipitaciones observadas/previstas, capas de susceptibilidad geográfica donde sean legítimas y fiables, historial documentado de eventos y orientación preventiva oficial. Las notificaciones, reportes ciudadanos y fichas de predios quedan para fases posteriores. Ver [ALUVIONES_Y_PREVENCION.md](ALUVIONES_Y_PREVENCION.md). La lista inicial de «Fuera del MVP» sigue aplicando a notificaciones automáticas, alertas de evacuación y predicción puntual.
