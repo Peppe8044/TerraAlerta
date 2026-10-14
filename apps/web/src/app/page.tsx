@@ -1,9 +1,11 @@
 "use client";
 
 import { useCallback, useRef, useState } from "react";
+import { EventsViewer } from "@/components/EventsViewer";
 import { LocationPanel } from "@/components/LocationPanel";
 import { MapView } from "@/components/MapView";
 import { PreparednessChecklist } from "@/components/PreparednessChecklist";
+import { SourcesPanel } from "@/components/SourcesPanel";
 import { getLocationSummary } from "@/lib/api";
 import { isInsidePilotCoverage } from "@/lib/coverage";
 import type { LocationSummary } from "@/lib/types";
@@ -69,6 +71,8 @@ export default function HomePage() {
         </p>
         <LocationPanel loading={loading} error={error} summary={summary} />
         <PreparednessChecklist />
+        <EventsViewer />
+        <SourcesPanel />
       </aside>
     </main>
   );

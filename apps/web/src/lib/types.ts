@@ -38,8 +38,23 @@ export interface LocationSummary {
   official_alerts_url: string;
 }
 
+export type LocationCertainty = "verified" | "approximate" | "unverified_candidate";
+export type VerificationStatus = "verified" | "pending_review";
+export type HazardType = "aluvion" | "remocion_en_masa" | "inundacion";
+
+export interface EventRecord {
+  id: string;
+  date: string;
+  approx_location: Record<string, unknown>;
+  hazard_type: HazardType;
+  source: string;
+  location_certainty: LocationCertainty;
+  verification_status: VerificationStatus;
+  notes: string;
+}
+
 export interface EventsResponse {
-  events: unknown[];
+  events: EventRecord[];
   message: string;
 }
 
