@@ -29,3 +29,7 @@ Interfaz móvil legible, no exige cuenta, capa de mapa funcional, timestamps vis
 ## Extensión de prevención ante aluviones (14-10-2026)
 
 El MVP incorpora consulta de precipitaciones observadas/previstas, capas de susceptibilidad geográfica donde sean legítimas y fiables, historial documentado de eventos y orientación preventiva oficial. Las notificaciones, reportes ciudadanos y fichas de predios quedan para fases posteriores. Ver [ALUVIONES_Y_PREVENCION.md](ALUVIONES_Y_PREVENCION.md). La lista inicial de «Fuera del MVP» sigue aplicando a notificaciones automáticas, alertas de evacuación y predicción puntual.
+
+## Nuevos casos de uso ciudadanos
+
+Se incorporan planificación familiar sin cuenta, observaciones hidrológicas por estación, comparación histórica de precipitación, preparación contextual, y como fases de investigación radar de inundaciones y asistente de IA. La extensión detallada, dependencias y criterios de aceptación están en [ROADMAP_VALOR_CIUDADANO.md](ROADMAP_VALOR_CIUDADANO.md). El registro persistente de predios sigue fuera del MVP para proteger datos personales.
