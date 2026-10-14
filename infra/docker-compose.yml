@@ -1,0 +1,47 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-terraalerta}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-terraalerta}
+      POSTGRES_DB: ${POSTGRES_DB:-terraalerta}
+    volumes:
+      - terraalerta_db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-terraalerta}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: ../services/api
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      OPEN_METEO_BASE_URL: ${OPEN_METEO_BASE_URL:-https://api.open-meteo.com/v1}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-terraalerta}:${POSTGRES_PASSWORD:-terraalerta}@db:5432/${POSTGRES_DB:-terraalerta}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: ../apps/web
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000}
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"
+
+volumes:
+  terraalerta_db_data:
