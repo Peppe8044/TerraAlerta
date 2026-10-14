@@ -23,3 +23,7 @@ G0: licencias y permisos trazables. G1: ingesta reproducible y calidad aceptable
 ## Definición de éxito del MVP
 
 App funciona con datos auténticos de una zona y aporta explicación/trazabilidad útil; NO se exige ni se declara mejora predictiva no demostrada. La expansión a alertas automáticas queda condicionada a validación independiente y revisión de seguridad.
+
+## Auditoría técnica adicional
+
+La matriz de «implementable / condicionado / investigación / prohibido» y los gates verificables están en [AUDITORIA_MVP_2026-10-14.md](AUDITORIA_MVP_2026-10-14.md). «Fiable respecto a la fuente» no equivale a precisión predictiva; G2 requiere contraste con estaciones locales y G4 revisión de comprensión para evitar falsa seguridad.
