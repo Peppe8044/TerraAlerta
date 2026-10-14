@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "unab-sernageomin-RM-1991-03-001",
+    "date": "1991-09-26",
+    "approx_location": {
+      "lat": -33.83017587,
+      "lon": -70.07418056,
+      "place": "Baños Morales",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 1991. Estudio geotécnico de flujos detríticos en quebrada Las Amarillas, sector Baños Morales, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-1991-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-1991-03-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-1991-04-001",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.78427961,
+      "lon": -70.23675542,
+      "place": "Guayacán (Cajón del Maipo)",
+      "radius_km": 6
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 1991. Geología del relleno Cuaternario de las hoyas de los ríos Yeso, Volcán y Maipo, este último entre las localidades de Guayacán y Los Queltehues, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-1991-04.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Deslizamiento'. Detonante registrado: Sin información. Material: Sin información. Código SERNAGEOMIN: RM-1991-04-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-1993-03-001",
+    "date": "1987, Junio",
+    "approx_location": {
+      "lat": -33.82454831,
+      "lon": -70.06141031,
+      "place": "Baños Morales",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 1993. Informe geotécnico referido a la evaluación de riesgos de remociones en masa sector Villa del Valle, Baños Morales, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-1993-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-1993-03-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-1993-03-002",
+    "date": "1987, Junio",
+    "approx_location": {
+      "lat": -33.82513453,
+      "lon": -70.06224335,
+      "place": "Baños Morales",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 1993. Informe geotécnico referido a la evaluación de riesgos de remociones en masa sector Villa del Valle, Baños Morales, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-1993-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-1993-03-002. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-1993-03-003",
+    "date": "1953-06-07",
+    "approx_location": {
+      "lat": -33.82427063,
+      "lon": -70.06089608,
+      "place": "Baños Morales",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 1993. Informe geotécnico referido a la evaluación de riesgos de remociones en masa sector Villa del Valle, Baños Morales, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-1993-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-1993-03-003. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-1995-01-001",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.83045633,
+      "lon": -70.05817483,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 1995. Estudio de riesgos geológicos en sector de Lo Valdés, comuna de San José de Maipo, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-1995-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Sin información. Código SERNAGEOMIN: RM-1995-01-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-1995-01-002",
+    "date": "1994-05-03",
+    "approx_location": {
+      "lat": -33.82896794,
+      "lon": -70.05505508,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 1995. Estudio de riesgos geológicos en sector de Lo Valdés, comuna de San José de Maipo, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-1995-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-1995-01-002. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-1996-02-001",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.73212539,
+      "lon": -70.30939381,
+      "place": "San Alfonso",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 1996. Geología, geotécnica y evaluación de riesgo aluvional en torno a la localidad de San Alfonso, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-1996-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Sin información. Código SERNAGEOMIN: RM-1996-02-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2000-11-001",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.62211008,
+      "lon": -70.3463536,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2000. Zonificación del peligro de remoción en masa en San José de Maipo, valle del río Maipo, Región Metropolitana. Congreso Geológico Chileno 2000. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2000-11.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Deslizamiento'. Detonante registrado: Sin información. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2000-11-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2005-08-001",
+    "date": "1999-09-08",
+    "approx_location": {
+      "lat": -33.64382899,
+      "lon": -70.3501618,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2005. Informe sobre condiciones de riesgo de remoción en masa para el complejo hospitalario San José de Maipo.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2005-08.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2005-08-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2005-08-002",
+    "date": "2000, Junio",
+    "approx_location": {
+      "lat": -33.64174307,
+      "lon": -70.34957933,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2005. Informe sobre condiciones de riesgo de remoción en masa para el complejo hospitalario San José de Maipo.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2005-08.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2005-08-002. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2005-08-003",
+    "date": "1999-09-08",
+    "approx_location": {
+      "lat": -33.64109695,
+      "lon": -70.34845867,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2005. Informe sobre condiciones de riesgo de remoción en masa para el complejo hospitalario San José de Maipo.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2005-08.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2005-08-003. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2005-08-004",
+    "date": "1997-10-08",
+    "approx_location": {
+      "lat": -33.64699789,
+      "lon": -70.3496577,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2005. Informe sobre condiciones de riesgo de remoción en masa para el complejo hospitalario San José de Maipo.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2005-08.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Deslizamiento'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2005-08-004. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2010-09-001",
+    "date": "2010-02-27",
+    "approx_location": {
+      "lat": -33.64689133,
+      "lon": -70.34355325,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2010. Efectos geológicos del sismo del 27 de febrero de 2010. Estado del deslizamiento activo Cerro Divisadero San José de Maipo.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2010-09.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Evento Sísmico. Material: Roca. Código SERNAGEOMIN: RM-2010-09-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2010-19-001",
+    "date": "2010-02-27",
+    "approx_location": {
+      "lat": -33.8188745,
+      "lon": -70.16733515,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2010. Efectos geológicos del sismo del 27 de febrero de 2010: inestabilidad de laderas frente al poblado El Volcán, Comuna San José de Maipo, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2010-19.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Evento Sísmico. Material: Roca. Código SERNAGEOMIN: RM-2010-19-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2012-07-001",
+    "date": "2012, Junio 16 y 17",
+    "approx_location": {
+      "lat": -33.75833187,
+      "lon": -70.27843791,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2012. Inspección técnica a la localidad de San José de Maipo, Región Metropolitana, por derrumbe en ruta G-25, Km 51 e inestabilidad de macizo rocoso.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2012-07.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-2012-07-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2012-07-002",
+    "date": "2012-06-17",
+    "approx_location": {
+      "lat": -33.75916516,
+      "lon": -70.27816911,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2012. Inspección técnica a la localidad de San José de Maipo, Región Metropolitana, por derrumbe en ruta G-25, Km 51 e inestabilidad de macizo rocoso.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2012-07.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-2012-07-002. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2012-08-001",
+    "date": "2012, Junio 12 y 13",
+    "approx_location": {
+      "lat": -33.6501973,
+      "lon": -70.34756538,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2012. Inspección técnica por derrumbe en vivienda de Av. El Carmen, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2012-08.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-2012-08-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2012-08-002",
+    "date": "2012, Junio 12 y 13",
+    "approx_location": {
+      "lat": -33.65045036,
+      "lon": -70.3475154,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2012. Inspección técnica por derrumbe en vivienda de Av. El Carmen, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2012-08.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-2012-08-002. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2012-08-003",
+    "date": "2012, Junio 12 y 13",
+    "approx_location": {
+      "lat": -33.6476461,
+      "lon": -70.3474717,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2012. Inspección técnica por derrumbe en vivienda de Av. El Carmen, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2012-08.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-2012-08-003. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2012-08-004",
+    "date": "2012, Junio 12 y 13",
+    "approx_location": {
+      "lat": -33.64500367,
+      "lon": -70.34732857,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2012. Inspección técnica por derrumbe en vivienda de Av. El Carmen, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2012-08.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-2012-08-004. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2012-08-005",
+    "date": "2012, Junio 12 y 13",
+    "approx_location": {
+      "lat": -33.6468991,
+      "lon": -70.34733066,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2012. Inspección técnica por derrumbe en vivienda de Av. El Carmen, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2012-08.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Lluvias. Material: Roca. Código SERNAGEOMIN: RM-2012-08-005. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2016-01-001",
+    "date": "2016, Abril 14 al 18",
+    "approx_location": {
+      "lat": -33.6921475,
+      "lon": -70.33543528,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2016. Efectos geológicos del sistema frontal de la zona central del país, 14-18 de abril de 2015. Región Metropolitana, Comuna de San José de Maipo. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2016-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2016-01-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2016-01-003",
+    "date": "2016, Abril 14 al 18",
+    "approx_location": {
+      "lat": -33.8580666,
+      "lon": -70.19762756,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2016. Efectos geológicos del sistema frontal de la zona central del país, 14-18 de abril de 2015. Región Metropolitana, Comuna de San José de Maipo. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2016-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2016-01-003. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2016-01-005",
+    "date": "2016, Abril 14 al 18",
+    "approx_location": {
+      "lat": -33.73613995,
+      "lon": -70.14113763,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2016. Efectos geológicos del sistema frontal de la zona central del país, 14-18 de abril de 2015. Región Metropolitana, Comuna de San José de Maipo. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2016-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2016-01-005. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2016-01-006",
+    "date": "2016, Abril 14 al 18",
+    "approx_location": {
+      "lat": -33.82212161,
+      "lon": -70.12853415,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2016. Efectos geológicos del sistema frontal de la zona central del país, 14-18 de abril de 2015. Región Metropolitana, Comuna de San José de Maipo. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2016-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2016-01-006. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2016-01-007",
+    "date": "2016, Abril 14 al 18",
+    "approx_location": {
+      "lat": -33.82942521,
+      "lon": -70.11081056,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2016. Efectos geológicos del sistema frontal de la zona central del país, 14-18 de abril de 2015. Región Metropolitana, Comuna de San José de Maipo. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2016-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2016-01-007. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2016-01-008",
+    "date": "2016, Abril 14 al 18",
+    "approx_location": {
+      "lat": -33.82952154,
+      "lon": -70.10107532,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2016. Efectos geológicos del sistema frontal de la zona central del país, 14-18 de abril de 2015. Región Metropolitana, Comuna de San José de Maipo. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2016-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2016-01-008. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2016-01-009",
+    "date": "2016, Abril 14 al 18",
+    "approx_location": {
+      "lat": -33.82901302,
+      "lon": -70.07489601,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2016. Efectos geológicos del sistema frontal de la zona central del país, 14-18 de abril de 2015. Región Metropolitana, Comuna de San José de Maipo. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2016-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2016-01-009. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-01-001",
+    "date": "2019-06-03",
+    "approx_location": {
+      "lat": -33.66545124,
+      "lon": -70.08304968,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por caída de rocas en el sector del Embalse el Yeso, ruta G455, comuna de San José de Maipo, región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-01.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Deshielo. Material: Roca. Código SERNAGEOMIN: RM-2019-01-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-11-001",
+    "date": "2019-11-08",
+    "approx_location": {
+      "lat": -33.81682356,
+      "lon": -70.16200221,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Observaciones geológicas del flujo de detritos en la quebrada San Antonio, comuna de San José de Maipo, Región Metropolitana (INF-2019-Metropolitana-07). Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-11.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Deshielo. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-11-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-39-011",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.82424335,
+      "lon": -70.18811955,
+      "place": "Río Volcán",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Sobrevuelo en las cuencas altas de los ríos Maipo y Mapocho, Región Metropolitana (preliminar). Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-39.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Deslizamiento'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-39-011. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-39-012",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.79470518,
+      "lon": -70.20281905,
+      "place": "Río Yeso",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Sobrevuelo en las cuencas altas de los ríos Maipo y Mapocho, Región Metropolitana (preliminar). Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-39.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Deslizamiento'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-39-012. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-001",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.66405343,
+      "lon": -70.08195659,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Deshielo. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-002",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.78597485,
+      "lon": -70.18211692,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-40-002. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-003",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.74218949,
+      "lon": -70.14855304,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-003. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-004",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.78405868,
+      "lon": -70.17681826,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-004. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-005",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65818158,
+      "lon": -70.08154143,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-005. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-006",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.6581181,
+      "lon": -70.08185561,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Sin información. Código SERNAGEOMIN: RM-2019-40-006. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-007",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.78745746,
+      "lon": -70.18804135,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-007. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-008",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.66108917,
+      "lon": -70.08163517,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-40-008. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-009",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.78758243,
+      "lon": -70.18995595,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-40-009. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-010",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.78733439,
+      "lon": -70.18902988,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-40-010. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-011",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.78521732,
+      "lon": -70.18019259,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-011. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-012",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.78468029,
+      "lon": -70.17857216,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-012. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-013",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.69525411,
+      "lon": -70.11265544,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-013. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-014",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.6427598,
+      "lon": -70.030678,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-014. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-015",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.6456525,
+      "lon": -70.03577277,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-015. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-016",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.64852619,
+      "lon": -70.04579207,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-016. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-017",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65213519,
+      "lon": -70.06660025,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-017. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-018",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65190358,
+      "lon": -70.06467997,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-018. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-019",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65171663,
+      "lon": -70.06422114,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-019. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-020",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65132403,
+      "lon": -70.06325761,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-020. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-021",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.66524299,
+      "lon": -70.08276577,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Deshielo. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-021. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-022",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.66831071,
+      "lon": -70.08342064,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-40-022. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-023",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65923236,
+      "lon": -70.08246218,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-40-023. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-024",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65969286,
+      "lon": -70.08219401,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-024. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-025",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.78831339,
+      "lon": -70.19317458,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-025. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-026",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.78809868,
+      "lon": -70.19094872,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-026. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-027",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.79252057,
+      "lon": -70.21162316,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Sin información. Código SERNAGEOMIN: RM-2019-40-027. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-028",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.69140086,
+      "lon": -70.10911339,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Deslizamiento'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-028. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-029",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.69317438,
+      "lon": -70.11079143,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-029. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-030",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.69865765,
+      "lon": -70.11647405,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-030. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-031",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.732492,
+      "lon": -70.14013652,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-031. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-032",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.675315,
+      "lon": -70.08501151,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-032. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-033",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.6763459,
+      "lon": -70.08640995,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-033. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-034",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.6511973,
+      "lon": -70.06246012,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-034. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-035",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65189147,
+      "lon": -70.065328,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-40-035. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-036",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65251693,
+      "lon": -70.06765127,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-40-036. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-037",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65410411,
+      "lon": -70.07072325,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-037. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-038",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65640588,
+      "lon": -70.07427788,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-038. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-039",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65663587,
+      "lon": -70.07650869,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-039. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-040",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65821623,
+      "lon": -70.08033526,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-040. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-041",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.66213858,
+      "lon": -70.08140184,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-041. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-042",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.6627397,
+      "lon": -70.08144445,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-042. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-043",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65644256,
+      "lon": -70.07599767,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-043. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-044",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65279164,
+      "lon": -70.06812633,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-044. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-045",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65569366,
+      "lon": -70.07161368,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-045. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-046",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65707604,
+      "lon": -70.07773039,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca. Código SERNAGEOMIN: RM-2019-40-046. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2019-40-047",
+    "date": "2019 (mes/día no especificados en la fuente)",
+    "approx_location": {
+      "lat": -33.65764866,
+      "lon": -70.07861412,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "remocion_en_masa",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2019. Evaluación de peligro por procesos de ladera en la ruta G-455, comuna de San José de Maipo, Región Metropolitana. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2019-40.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Caída'. Detonante registrado: Sin información. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2019-40-047. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2015-20-001",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.72359648,
+      "lon": -70.31594495,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2015. Peligro aluvional en la localidad de San Alfonso, Comuna de San José de Maipo, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2015-20.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado:  . Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2015-20-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2015-20-002",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.7235295,
+      "lon": -70.31487494,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2015. Peligro aluvional en la localidad de San Alfonso, Comuna de San José de Maipo, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2015-20.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado:  . Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2015-20-002. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2015-20-003",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.72415508,
+      "lon": -70.31430218,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2015. Peligro aluvional en la localidad de San Alfonso, Comuna de San José de Maipo, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2015-20.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado:  . Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2015-20-003. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2015-20-004",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.72485752,
+      "lon": -70.31185212,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2015. Peligro aluvional en la localidad de San Alfonso, Comuna de San José de Maipo, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2015-20.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado:  . Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2015-20-004. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2015-20-005",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.72676016,
+      "lon": -70.31017576,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2015. Peligro aluvional en la localidad de San Alfonso, Comuna de San José de Maipo, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2015-20.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado:  . Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2015-20-005. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2015-20-006",
+    "date": "Año no especificado en la fuente",
+    "approx_location": {
+      "lat": -33.72809426,
+      "lon": -70.30853387,
+      "place": "San José de Maipo",
+      "radius_km": 6
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2015. Peligro aluvional en la localidad de San Alfonso, Comuna de San José de Maipo, Región Metropolitana.. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2015-20.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "unverified_candidate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado:  . Material: Suelo/Sedimento. Código SERNAGEOMIN: RM-2015-20-006. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-001",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81422169,
+      "lon": -70.20199687,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-002",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81420164,
+      "lon": -70.19942518,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-002. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-003",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81394016,
+      "lon": -70.19663404,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-003. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-004",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.8142696,
+      "lon": -70.18680675,
+      "place": "El Volcán",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-004. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-005",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.8156625,
+      "lon": -70.17508154,
+      "place": "El Volcán",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-005. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-006",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81686821,
+      "lon": -70.16587088,
+      "place": "El Volcán",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-006. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-007",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81682325,
+      "lon": -70.16203462,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-007. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-008",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.82207573,
+      "lon": -70.12861999,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-008. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-009",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.8290476,
+      "lon": -70.11168098,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-009. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-010",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.83028382,
+      "lon": -70.08425949,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-010. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-011",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.82912274,
+      "lon": -70.07472448,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-011. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-012",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.82349246,
+      "lon": -70.05730023,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-012. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-013",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.82783945,
+      "lon": -70.04884928,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-013. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-014",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.82681906,
+      "lon": -70.04155354,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-014. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-015",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.82462184,
+      "lon": -70.0325797,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-015. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-016",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.83179616,
+      "lon": -69.99024957,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-016. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-02-017",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.84558472,
+      "lon": -69.98699314,
+      "place": "Queltehues",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Efectos geológicos del sistema frontal del 29 al 31 de enero de 2021, región Metropolitana, camino al Volcán, sector cruce a Queltehues-Baños de Colina [informe inédito]. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-02.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-02-017. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-001",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.80881005,
+      "lon": -70.19369966,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-001. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-002",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81092646,
+      "lon": -70.19307002,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-002. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-003",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81027422,
+      "lon": -70.19150523,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-003. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-004",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.80861912,
+      "lon": -70.19106094,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-004. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-005",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.80943452,
+      "lon": -70.18880347,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-005. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-006",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.80989374,
+      "lon": -70.1870056,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-006. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-007",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81462519,
+      "lon": -70.17888128,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-007. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-008",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81776109,
+      "lon": -70.17062628,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-008. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-009",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81815683,
+      "lon": -70.16978889,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-009. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  },
+  {
+    "id": "unab-sernageomin-RM-2021-03-010",
+    "date": "2021-01-30",
+    "approx_location": {
+      "lat": -33.81990449,
+      "lon": -70.16618221,
+      "place": "San José de Maipo",
+      "radius_km": 2
+    },
+    "hazard_type": "aluvion",
+    "source": "Catálogo de remociones en masa (compilación de terceros, Universidad Andrés Bello, vía ArcGIS Online, no es un canal oficial de SERNAGEOMIN): 2021. Síntesis del levantamiento de áreas afectadas por flujos durante el evento hidrometeorológico del 29 al 31 de enero de 2021, sectores de Población Victoria, San Alfonso, El Volcán y La Mercedita, comuna de San José de Maipo, región Metropoli. Informe original citado: http://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2021-03.pdf — enlace actualmente inaccesible (el dominio portalgeo.sernageomin.cl está dado de baja; verificado 14-10-2026).",
+    "location_certainty": "approximate",
+    "verification_status": "pending_review",
+    "notes": "Tipo original SERNAGEOMIN: 'Flujo'. Detonante registrado: Lluvias. Material: Roca y Suelo/Sedimento. Código SERNAGEOMIN: RM-2021-03-010. Pendiente de confirmación directa: la licencia de reuso de este catálogo no está declarada y el informe original no es verificable mientras el dominio esté caído."
+  }
+]

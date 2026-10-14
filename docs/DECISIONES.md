@@ -44,6 +44,26 @@ Backend: 27 tests (antes 26). Frontend: 5 tests (sin cambio; los dos componentes
 3. **Mensaje de `/v1/events` asumía que todo estaba verificado**: `EventRecord` admite `verification_status="pending_review"`, así que un listado mixto se describía falsamente como "N eventos verificados". Ahora se cuenta cada estado por separado. Test añadido con un listado mixto sintético (28 tests en total).
 4. **`SourcesPanel` omitía `retrieval_mode` y `last_verified`**: para fuentes como DMC, la razón real de por qué no está habilitada (API sin verificar, derechos de reutilización) vivía en `retrieval_mode`, que la UI no mostraba. Ahora se muestra junto a la fecha de última verificación.
 
+## Tercera ronda: catálogo masivo de eventos históricos (pending_review)
+
+Al investigar el paso a paso para habilitar SERNAGEOMIN (a pedido del usuario), se descubrió que:
+
+1. **El dominio del "Portal Geomin" de SERNAGEOMIN está dado de baja** (`portalgeomin.sernageomin.cl` y `portalgeo.sernageomin.cl`, dos subdominios distintos, ambos sin DNS), verificado de forma independiente desde dos redes distintas. El visor de remociones en masa ya no aparece en el sitio actual de SERNAGEOMIN. Esto invalida el enlace del único evento `verified` cargado hasta ahora (la cita bibliográfica se conserva, el link no).
+2. **Existe un catastro de terceros reutilizable**: una investigadora de la Universidad Andrés Bello publicó en ArcGIS Online una compilación de 2.880 eventos de remoción en masa en Chile (1762-2021), cada uno citando un informe SERNAGEOMIN original. El servicio REST (`services3.arcgis.com/.../Catastro_de_remociones_en_masa_Sernageomin/FeatureServer`) es público, sin autenticación, y se probó en vivo con éxito.
+3. **Decisión del usuario (14-10-2026): importar ya, marcado `pending_review`.** Se construyó `pipelines/sernageomin_unab_catalog/fetch_and_filter.py`, un importador manual y reproducible (no corre automáticamente) que:
+   - Consulta el servicio por bbox piloto (218 registros).
+   - Filtra a los que mencionan por nombre una localidad inequívoca de San José de Maipo/Cajón del Maipo (San José de Maipo, Baños Morales, San Alfonso, El Volcán, Lo Valdés, Queltehues, etc.) — 130 de 218. Se verificó que el 100% de los que matchean pertenecen a Región Metropolitana y a códigos `RM-`, sin contaminación de otras regiones.
+   - Excluye los 17 sub-eventos del informe RM-2017-23 (ya cubierto a mano, resumido, como el evento `verified`) para no duplicar — quedan 113.
+   - Escribe el resultado a `services/api/app/data/sernageomin_unab_catalog_sjm.json` (commiteado, auditable, diffable).
+   - Todo el lote lleva `verification_status="pending_review"` — **nunca** `"verified"` — porque: (a) el compilador no es SERNAGEOMIN directamente, (b) el ítem de ArcGIS no declara licencia explícita de reuso, y (c) el informe original citado en cada registro no es verificable mientras el dominio esté caído. `location_certainty` se mapea desde el propio campo `Precision_de_coordenadas` del dataset (`"Coordenadas exactas"→"approximate"`, `"Coordenadas aproximadas al sector"→"unverified_candidate"`), nunca `"verified"`.
+   - Registrado como fuente nueva en `app/sources.py` y `docs/FUENTES_ESTADO.md` con `license_status="pending"`.
+4. **Guardas de regresión añadidas** (`services/api/tests/test_events.py`): un test falla si cualquier evento del lote importado aparece como `"verified"`, otro si el mensaje del endpoint describe un lote mixto como si todo estuviera verificado, y otro si reaparecen los sub-eventos de RM-2017-23 como duplicado.
+5. **Frontend**: `EventsViewer` ahora ordena por año (más reciente primero, verificados antes que pendientes en empate), limita la vista inicial a 20 con un botón "mostrar todos", y cada fuente larga se puede expandir/contraer por evento. Lógica de orden extraída a `src/lib/events.ts` con tests unitarios.
+
+Backend: 28 → 31 tests. Frontend: 5 → 11 tests. Build y lint verificados.
+
+**Pendiente de verdad (no resuelto por este agente):** confirmar con SERNAGEOMIN o con la autora del catastro (correo visible en el ítem de ArcGIS: `c.verasoriano@uandresbello.edu`) la licencia de reuso y dónde se reubicaron los informes PDF, para poder subir estos eventos a `"verified"`.
+
 ## Correcciones tras revisión automatizada (PR #1, Codex)
 
 El bot de revisión de código del repositorio (`chatgpt-codex-connector`) señaló 6 hallazgos reales sobre el primer commit del MVP. Todos se corrigieron antes de mergear:
