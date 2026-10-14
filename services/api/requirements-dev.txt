@@ -3,3 +3,5 @@ pytest==8.3.4
 pytest-cov==6.0.0
 ruff==0.8.6
 respx==0.22.0
+# Solo para pipelines/*/fetch_and_filter.py (scripts manuales, no corren en producción).
+requests==2.32.3

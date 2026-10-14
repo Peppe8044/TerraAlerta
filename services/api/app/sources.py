@@ -87,6 +87,32 @@ SOURCES: dict[str, SourceInfo] = {
         last_verified="2026-10-14",
         notes="No habilitado en este MVP. Mostrar como referencia, nunca como clasificación automática de viviendas.",
     ),
+    "sernageomin_unab_catalog": SourceInfo(
+        dataset=(
+            "Catastro de remociones en masa (compilación de terceros, Universidad Andrés Bello, "
+            "vía ArcGIS Online, citando informes SERNAGEOMIN)"
+        ),
+        owner="Investigadora independiente (Universidad Andrés Bello), citando informes de SERNAGEOMIN",
+        url=(
+            "https://services3.arcgis.com/uZrwedu11XCCdHk1/arcgis/rest/services/"
+            "Catastro_de_remociones_en_masa_Sernageomin/FeatureServer"
+        ),
+        license_status="pending",
+        retrieval_mode=(
+            "API REST pública de ArcGIS Online, sin autenticación, consultada vía "
+            "pipelines/sernageomin_unab_catalog/fetch_and_filter.py (ejecución manual, no en vivo)"
+        ),
+        last_verified="2026-10-14",
+        notes=(
+            "NO es un canal oficial de SERNAGEOMIN: el ítem de ArcGIS no declara licencia explícita "
+            "de reuso ('no se han proporcionado restricciones'), y cada registro cita un informe "
+            "original en portalgeo.sernageomin.cl, dominio actualmente dado de baja (no resuelve "
+            "DNS; el antiguo 'Portal Geomin' ya no aparece en sernageomin.cl/visores-mineros/). "
+            "Por eso todos los eventos importados de esta fuente llevan "
+            "verification_status='pending_review', nunca 'verified'. Pendiente: contactar a la "
+            "autora o a SERNAGEOMIN para confirmar licencia y ubicación actual de los informes PDF."
+        ),
+    ),
     "senapred_preparedness": SourceInfo(
         dataset="SENAPRED — orientación de preparación ante aluviones/lluvias intensas",
         owner="Servicio Nacional de Prevención y Respuesta ante Desastres",
