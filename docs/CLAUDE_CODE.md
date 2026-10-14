@@ -12,3 +12,7 @@ Orden obligatorio:
 7. Deja `docs/DECISIONES.md` con decisiones, bloqueos y siguientes pasos de investigación; evita entrenar ML hasta conocer etiquetas y baselines válidos.
 
 Criterios de aceptación: `docker compose up` inicia componentes, `/health` responde, selección en mapa funciona, la app no llama «riesgo» a una estadística no validada, todas las cifras reales exhiben fuente y fecha, y tests pasan. No introduzcas APIs pagadas ni publiques datos sensibles.
+
+## Requisito adicional — prevención ante aluviones
+
+Antes de implementar, leer `docs/ALUVIONES_Y_PREVENCION.md` e incorporar su matriz P0/P1/P2 al plan. En P0 añadir historial de eventos documentados, contexto de quebradas/pendientes, información sobre lluvia reciente con fechas y una ficha de preparación respaldada por SENAPRED. No construir notificaciones ni reportes ciudadanos hasta pasar sus puertas de validación. Aceptar «datos insuficientes» y no mostrar riesgo numérico, sectores «seguros» ni rutas de evacuación inferidas.
