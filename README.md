@@ -19,3 +19,7 @@ Piloto: **San José de Maipo, Región Metropolitana**. Aplicación web adaptada 
 ## Licencia
 
 No se ha elegido aún licencia para el código original. No asumir que las licencias de terceros se extienden automáticamente al código o a productos derivados. Consultar `docs/DATOS.md`.
+
+## Extensión preventiva: aluviones
+
+El roadmap de lluvia intensa, cartografía de quebradas, eventos históricos, preparación ciudadana, futuras notificaciones y reportes se documenta en [docs/ALUVIONES_Y_PREVENCION.md](docs/ALUVIONES_Y_PREVENCION.md). Los niveles P0/P1/P2 separan funciones implementables de hipótesis que exigen evaluación adicional.
