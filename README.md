@@ -27,3 +27,7 @@ El roadmap de lluvia intensa, cartografía de quebradas, eventos históricos, pr
 ## Auditoría de confiabilidad
 
 Antes de implementar o publicar nuevas capacidades, consultar [Auditoría MVP y matriz de implementabilidad](docs/AUDITORIA_MVP_2026-10-14.md). Distingue componentes implementables ahora, condicionados a disponibilidad/licencia y funciones de investigación no aptas para alertas operativas.
+
+## Nuevos módulos ciudadanos
+
+Consultar [Roadmap de valor ciudadano](docs/ROADMAP_VALOR_CIUDADANO.md): plan familiar/terreno, monitoreo hidrológico DGA, comparaciones históricas, radar Sentinel-1, preparación contextual y asistente explicativo. Las fases y restricciones de confiabilidad se documentan allí.
