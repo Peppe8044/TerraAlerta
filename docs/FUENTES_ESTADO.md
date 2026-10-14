@@ -18,6 +18,7 @@ El código fuente de verdad sobre qué conectores están habilitados vive en
 | SENAPRED (contenido de preparación) | `pending` | 2026-10-14 | Checklist en `/v1/preparedness` es un **borrador editorial propio**, no una cita literal verificada contra el sitio oficial vigente. | pendiente de asignar |
 | Copernicus GloFAS | `blocked` | 2026-10-14 | No es dependencia del MVP. | — |
 | Google Flood Hub | `blocked` | 2026-10-14 | API requiere autorización no obtenida. | — |
+| SERNAGEOMIN, Informe Registrado RM-2017-23 (evento puntual, no API) | `approved` para cita en `/v1/events` | 2026-10-14 | PDF oficial verificado en https://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2017-23.pdf; usado como fuente del único evento histórico cargado (`sjm-2017-02-quebrada-san-jose`). No es un conector ni una API — es una cita documental puntual, ver `services/api/app/events_data.py`. | equipo TerraAlerta |
 
 ## Reglas de actualización
 

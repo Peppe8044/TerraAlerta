@@ -21,6 +21,29 @@ Este documento es el entregable 7 de `docs/CLAUDE_CODE.md`. Registra lo implemen
 - **ML de aluviones, puntajes de riesgo, rutas de evacuación, notificaciones push**: fuera de alcance por decisión explícita de los documentos de producto; no se tocó este sprint.
 - **Contenido SENAPRED**: el checklist de `/v1/preparedness` es un borrador editorial propio pendiente de revisión/cita literal contra el texto oficial vigente (gate G4). No usar en producción sin esa revisión.
 
+## Segunda ronda: panel de fuentes, visor de eventos y primer evento verificado
+
+Tras el merge del MVP inicial (PR #1), se cerraron dos brechas detectadas al revisar el cumplimiento contra la auditoría:
+
+1. **Panel "¿De dónde viene este dato?" en el frontend** (`apps/web/src/components/SourcesPanel.tsx`): el backend `/v1/sources` existía desde el PR #1, pero ninguna pantalla lo mostraba. Es el entregable 2 explícito de `docs/AUDITORIA_MVP_2026-10-14.md`. Ahora lista las 11 fuentes registradas (incluidas las `pending`/`research_only`/`blocked`), con su estado de licencia, dueño y notas.
+2. **Visor de eventos históricos en el frontend** (`apps/web/src/components/EventsViewer.tsx`): el endpoint `/v1/events` existía pero ningún componente lo consumía.
+3. **Primer evento histórico verificado** (`services/api/app/events_data.py`): se investigó con fuentes abiertas y se incorporó el aluvión del 25 de febrero de 2017 en la quebrada/estero San José (San José de Maipo), documentado oficialmente en el informe técnico SERNAGEOMIN RM-2017-23 (https://portalgeo.sernageomin.cl/Informes_PDF_Nac/RM-2017-23.pdf). Es un catálogo **curado a mano, no un scraper**: cada entrada exige una fuente oficial citable.
+   - Se marcó `location_certainty="approximate"` (coordenada a nivel de localidad, no la coordenada exacta de la quebrada, que no se verificó) y `verification_status="verified"` (respaldado por informe técnico oficial, no solo prensa).
+   - Deliberadamente **no** se incluyó el conteo de víctimas: las cifras de prensa consultadas (The Clinic, Meganoticias, agencias) difieren entre sí, y ese dato no es necesario para un registro de amenaza geológica.
+   - Deliberadamente **no** se incorporaron otros antecedentes encontrados en cobertura secundaria (aluviones de 1980 en ríos Mapocho/Maipo/Yeso/Colorado, aluvión de Las Amarillas 1991, remociones de Avenida El Carmen 2012): no se pudo confirmar con una fuente primaria que hayan ocurrido dentro de los límites de la comuna de San José de Maipo. Queda como investigación pendiente.
+   - Se respetó explícitamente la instrucción de `docs/ALUVIONES_Y_PREVENCION.md`: el evento de Las Condes de octubre de 2026 sigue **excluido** por no tener localización verificada; hay un test (`test_events_does_not_include_unverified_las_condes_2026_candidate`) que falla si alguien lo agrega sin pasar por esa verificación.
+
+Backend: 27 tests (antes 26). Frontend: 5 tests (sin cambio; los dos componentes nuevos son de solo lectura y se probaron manualmente contra la API real, ver más abajo). Lint y build verificados tras los cambios.
+
+### Correcciones tras revisión automatizada (PR #2, Codex)
+
+4 hallazgos más, todos corregidos antes de mergear:
+
+1. **Orden de paneles**: `SourcesPanel` ("¿De dónde viene este dato?") se movió antes de `LocationPanel` en `page.tsx` — el criterio de aceptación de la auditoría exige que la procedencia se muestre antes de cualquier evaluación, y antes quedaba después.
+2. **`EventsViewer` descartaba metadatos estructurados**: solo mostraba notas y fuente en texto libre; un evento `pending_review` era indistinguible de uno `verified`. Ahora se muestra también `hazard_type`, `approx_location` (con su radio de incertidumbre) y `verification_status` con color distintivo.
+3. **Mensaje de `/v1/events` asumía que todo estaba verificado**: `EventRecord` admite `verification_status="pending_review"`, así que un listado mixto se describía falsamente como "N eventos verificados". Ahora se cuenta cada estado por separado. Test añadido con un listado mixto sintético (28 tests en total).
+4. **`SourcesPanel` omitía `retrieval_mode` y `last_verified`**: para fuentes como DMC, la razón real de por qué no está habilitada (API sin verificar, derechos de reutilización) vivía en `retrieval_mode`, que la UI no mostraba. Ahora se muestra junto a la fecha de última verificación.
+
 ## Correcciones tras revisión automatizada (PR #1, Codex)
 
 El bot de revisión de código del repositorio (`chatgpt-codex-connector`) señaló 6 hallazgos reales sobre el primer commit del MVP. Todos se corrigieron antes de mergear:

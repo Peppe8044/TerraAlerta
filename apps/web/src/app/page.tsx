@@ -1,9 +1,11 @@
 "use client";
 
 import { useCallback, useRef, useState } from "react";
+import { EventsViewer } from "@/components/EventsViewer";
 import { LocationPanel } from "@/components/LocationPanel";
 import { MapView } from "@/components/MapView";
 import { PreparednessChecklist } from "@/components/PreparednessChecklist";
+import { SourcesPanel } from "@/components/SourcesPanel";
 import { getLocationSummary } from "@/lib/api";
 import { isInsidePilotCoverage } from "@/lib/coverage";
 import type { LocationSummary } from "@/lib/types";
@@ -67,8 +69,12 @@ export default function HomePage() {
           </a>
           .
         </p>
+        {/* La procedencia de los datos se muestra ANTES de cualquier evaluación
+            (docs/AUDITORIA_MVP_2026-10-14.md entregable 2 / criterio de aceptación). */}
+        <SourcesPanel />
         <LocationPanel loading={loading} error={error} summary={summary} />
         <PreparednessChecklist />
+        <EventsViewer />
       </aside>
     </main>
   );
